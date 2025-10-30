@@ -166,7 +166,7 @@ p { color: #ccc; line-height: 1.8; }
   margin-bottom: 25px;
 }
 
-/* GALLERY GRID */
+
 .gallery {
   position: relative;
   z-index: 2;
@@ -176,12 +176,12 @@ p { color: #ccc; line-height: 1.8; }
   padding: 0 40px;
 }
 
-/* IMAGES STYLING */
+
 .gallery img {
   width: 100%;
-  height: 280px; /* slightly taller rectangle */
-  object-fit: cover; /* keep full coverage */
-  object-position: top center; /* keeps faces/head visible */
+  height: 280px; 
+  object-fit: cover; 
+  object-position: top center; 
   border-radius: 12px;
   transition: transform .4s ease, box-shadow .4s ease;
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
@@ -192,7 +192,7 @@ p { color: #ccc; line-height: 1.8; }
   box-shadow: 0 10px 25px rgba(255,215,0,0.25);
 }
 
-/* RESPONSIVENESS */
+
 @media (max-width: 992px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
